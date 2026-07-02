@@ -1,5 +1,8 @@
 name: Preview Build
 on:
+  push:
+    branches:
+      - add-proxy-auth
   workflow_dispatch:
     inputs:
 jobs:
